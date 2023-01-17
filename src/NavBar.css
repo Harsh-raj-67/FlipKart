@@ -1,0 +1,59 @@
+.navMain{
+    background-color:  #2874f0;
+    display: flex;
+    justify-content:space-between ;
+    height: 80px;
+    margin-top: 0px;
+    color: white;
+    
+}
+.navLeft{
+    position: relative;
+    top:-20px;
+    margin-left: 2%;
+    margin: top 0px; 
+   
+}
+.navMiddle{
+    display: flex;
+    justify-content: space-between;
+
+    width: 25%;
+}
+.navRight{
+    display: flex;
+    
+    margin-right: 5%;
+    width:40%;
+    justify-content: space-between;
+   
+    
+}
+
+p{
+    position: relative;
+    top:-25px;
+}
+input{
+    padding: 0 16px ;
+    border-radius: 2px 2px 2px 2px;
+    border: none;
+    height: 36px;
+    width: 300%;
+    position: relative;
+    margin: 20px;
+    left: 50px;
+    cursor: pointer;
+}
+button{
+    position: relative;
+    left: 70px;
+    height: 45px;
+    margin: 20px;
+    width: 200px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color:#2874f0 ;
+    cursor: pointer;
+}
